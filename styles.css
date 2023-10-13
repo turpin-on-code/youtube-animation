@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 96px;
+    background-color: #03a9f4;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+.image-container {
+    margin: 0;
+    padding: 0;
+    padding-top: 185px;
+    position: absolute;
+    left: 760px;
+}
+
+h1 {
+    position: absolute;
+    left: 2400px;
+    margin: 0;
+    padding-top: 250px;
+    color: white;
+    white-space: nowrap;
+}
+
+.rotate-logo {
+    transform: rotate(360deg);
+    transition: transform 3s ease;
+}
+
+.slide-text {
+    left: 950px;
+    transition: left 3s ease 3s;
+}
+
+.slide-more {
+    left: 750px;
+    transition: left 3s ease;
+}
+
+.slide-img-container {
+    left: 250px;
+    transition: left 3s ease;
+}
